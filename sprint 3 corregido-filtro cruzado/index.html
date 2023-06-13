@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Events | Home </title>
+    <link rel="shortcut icon" href="./assets/images/Logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/styles.css"></head>
+<body>
+    <header>
+        <!--ESTO ES LA NAVEGACION-->
+        <nav class="navbar navbar-expand-lg ">
+            <img src="./assets/images/Logo.png" alt="logo" id="img-logo-nav">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./assets/pages/upcomingEvents.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./assets/pages/pastEvents.html">Past Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./assets/pages/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./assets/pages/stats.html">Stats</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--ESTO ES EL CARROUSEL-->
+        <div class="seccion-carrousel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    <!--ESTO ES EL CHECKBOX-->
+        <div class="box-checks" id="box-checks">
+        <div class="form-check form-check-inline" id="checkbox-id"></div>
+    <!--ESTO ES PARA EL SEARCH-->
+    </div>
+    <!--ESTO ES PARA LAS CARDS-->
+    <div class="seccion-cards" id="sec-card">
+        
+    </div>
+    </main>
+    <footer>
+        <div class="icons">
+            <img class="imgsvg" src="./assets/images/instagram (1).svg" alt="insta">
+            <img class="imgsvg" src="./assets/images/facebook (1).svg" alt="face">
+            <img class="imgsvg" src="./assets/images/whatsapp (1).svg" alt="whats">
+        </div>
+        <h3>Cohort 48</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        <script src="./data.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
